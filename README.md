@@ -33,7 +33,6 @@ $ pm2 start app.js
 
 
 
-Official website: [https://pm2.keymetrics.io/](https://pm2.keymetrics.io/)
 
 Works on Linux (stable) & macOS (stable) & Windows (stable). All Node.js versions are supported starting Node.js 12.X.
 
@@ -45,8 +44,6 @@ With NPM:
 ```bash
 $ npm install pm2 -g
 ```
-
-You can install Node.js easily with [NVM](https://github.com/nvm-sh/nvm#installing-and-updating) or [FNM](https://github.com/Schniz/fnm).
 
 ### Start an application
 
@@ -89,8 +86,6 @@ To monitor logs, custom metrics, application information:
 $ pm2 monit
 ```
 
-[More about Process Management](https://pm2.keymetrics.io/docs/usage/process-management/)
-
 ### Cluster Mode: Node.js Load Balancing & Zero Downtime Reload
 
 The Cluster mode is a special mode when starting a Node.js application, it starts multiple processes and load-balance HTTP/TCP/UDP queries between them. This increase overall performance (by a factor of x10 on 16 cores machines) and reliability (faster socket re-balancing in case of unhandled errors).
@@ -113,8 +108,6 @@ Hot Reload allows to update an application without any downtime:
 $ pm2 reload all
 ```
 
-[More informations about how PM2 make clustering easy](https://pm2.keymetrics.io/docs/usage/cluster-mode/)
-
 ### Container Support
 
 With the drop-in replacement command for `node`, called `pm2-runtime`, run your Node.js application in a hardened production environment.
@@ -124,8 +117,6 @@ Using it is seamless:
 RUN npm install pm2 -g
 CMD [ "pm2-runtime", "npm", "--", "start" ]
 ```
-
-[Read More about the dedicated integration](https://pm2.keymetrics.io/docs/usage/docker-pm2-nodejs/)
 
 ### Host monitoring speedbar
 
@@ -174,8 +165,6 @@ To enable log rotation install the following module
 $ pm2 install pm2-logrotate
 ```
 
-[More about log management](https://pm2.keymetrics.io/docs/usage/log-management/)
-
 ### Startup Scripts Generation
 
 PM2 can generate and configure a Startup Script to keep PM2 and your processes alive at every server restart.
@@ -193,8 +182,6 @@ $ pm2 save
 $ pm2 unstartup
 ```
 
-[More about Startup Scripts Generation](https://pm2.keymetrics.io/docs/usage/startup/)
-
 ### Updating PM2
 
 ```bash
@@ -210,11 +197,6 @@ $ pm2 update
 
 If you manage your apps with PM2, PM2+ makes it easy to monitor and manage apps across servers.
 
-![https://app.pm2.io/](https://pm2.io/img/app-overview.png)
-
-Feel free to try it:
-
-[Discover the monitoring dashboard for PM2](https://app.pm2.io/)
 
 Thanks in advance and we hope that you like PM2!
 
@@ -222,8 +204,6 @@ Thanks in advance and we hope that you like PM2!
 
 
 ## Contributors
-
-[Contributors](http://pm2.keymetrics.io/hall-of-fame/)
 
 ## License
 
