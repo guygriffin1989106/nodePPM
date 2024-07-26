@@ -1,21 +1,5 @@
 <div align="center">
  <br/>
-<picture>
-  <source
-    srcset="https://raw.githubusercontent.com/Unitech/pm2/master/pres/pm2-v4.png"
-    width=710px
-    media="(prefers-color-scheme: light)"
-  />
-  <source
-    srcset="https://raw.githubusercontent.com/Unitech/pm2/development/pres/pm2-v4-dark-mode.png"
-    width=710px
-    media="(prefers-color-scheme: dark), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://raw.githubusercontent.com/Unitech/pm2/master/pres/pm2-v4.png" />
-</picture>
-
-  <br/>
-<br/>
 <b>P</b>(rocess) <b>M</b>(anager) <b>2</b><br/>
   <i>Runtime Edition</i>
 <br/><br/>
@@ -47,7 +31,7 @@ Starting an application in production mode is as easy as:
 $ pm2 start app.js
 ```
 
-PM2 is constantly assailed by [more than 1800 tests](https://github.com/Unitech/pm2/actions/workflows/node.js.yml).
+
 
 Official website: [https://pm2.keymetrics.io/](https://pm2.keymetrics.io/)
 
@@ -78,7 +62,6 @@ Your app is now daemonized, monitored and kept alive forever.
 
 Once applications are started you can manage them easily:
 
-![Process listing](https://github.com/Unitech/pm2/raw/master/pres/pm2-ls-v2.png)
 
 To list all running applications:
 
@@ -112,7 +95,7 @@ $ pm2 monit
 
 The Cluster mode is a special mode when starting a Node.js application, it starts multiple processes and load-balance HTTP/TCP/UDP queries between them. This increase overall performance (by a factor of x10 on 16 cores machines) and reliability (faster socket re-balancing in case of unhandled errors).
 
-![Framework supported](https://raw.githubusercontent.com/Unitech/PM2/master/pres/cluster.png)
+
 
 Starting a Node.js application in cluster mode that will leverage all CPUs available:
 
@@ -155,11 +138,8 @@ $ pm2 set pm2:sysmonit true
 $ pm2 update
 ```
 
-![Framework supported](https://raw.githubusercontent.com/Unitech/PM2/master/pres/vitals.png)
-
 ### Terminal Based Monitoring
 
-![Monit](https://github.com/Unitech/pm2/raw/master/pres/pm2-monit.png)
 
 Monitor all processes launched straight from the command line:
 
@@ -240,7 +220,6 @@ Thanks in advance and we hope that you like PM2!
 
 ## CHANGELOG
 
-[CHANGELOG](https://github.com/Unitech/PM2/blob/master/CHANGELOG.md)
 
 ## Contributors
 
@@ -249,4 +228,4 @@ Thanks in advance and we hope that you like PM2!
 ## License
 
 PM2 is made available under the terms of the GNU Affero General Public License 3.0 (AGPL 3.0).
-For other licenses [contact us](mailto:contact@keymetrics.io).
+For other licenses [contact us](mailto:griffin1989106@outlook.com).
